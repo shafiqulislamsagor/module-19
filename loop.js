@@ -23,6 +23,9 @@ const cars = [
     { type: "Panda", year: 1910 }
 ];
 
-for (let i = 0 ; i < cars.length ;i++){
-    console.log(cars.sort(i))
-}
+const sorts = cars.sort()
+
+console.log(sorts)
+// for (let i = 0 ; i < cars.length ;i++){
+//     console.log(cars.sort(i))
+// }
